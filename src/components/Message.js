@@ -5,7 +5,7 @@ import phrases from '../phrases.json'
 const Message = () => {
 
     const getRandom = () => Math.floor(Math.random()* phrases.length)
-    const getColor = Math.floor(Math.random()*8)
+   
      
     const colors = ["#D65DB1","#FF9671","#FFC75F","#008E9B","#F9F871","#B39CD0","#FF8066","#00C2A8"]
     
